@@ -16,7 +16,7 @@ const CloudinaryUpload = ({setUrl , setName}) => {
         const data = new FormData();
         data.append("file", file);
         data.append("upload_preset", import.meta.env.VITE_CLOUDINARY_PRESET || "Smitgajera"); 
-        data.append("cloud_name", import.meta.env.VITE_CLOUDINARY_FOLDER || "dmorokjkq"); 
+        data.append("cloud_name", import.meta.env.VITE_CLOUDINARY_FOLDER); 
 
         try {
             setUploading(true);
