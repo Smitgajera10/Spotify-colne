@@ -3,7 +3,7 @@ import { Howl, Howler } from 'howler';
 import { Icon } from '@iconify/react';
 import { useEffect, useState } from 'react';
 import SingleSongCard from '../components/SingleSongCard';
-import { makeAuthenticatedGETRequest } from '../utils/serverHelpers';
+import { makeAuthenticatedGETRequest } from '../utils/ServerHelpers';
 import LoggedInContainer from '../containers/LoggedInContainer';
 
 function MyMusic() {
