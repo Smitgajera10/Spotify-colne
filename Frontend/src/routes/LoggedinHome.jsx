@@ -12,21 +12,18 @@ function LoggedinHome() {
       </div>
 
       <div className="flex overflow-x-auto gap-4 px-4 sm:px-5 pb-4">
-        <a
-          href="https://open.spotify.com/artist/2CIMQH7S2dFkfmjbpD06y1"
-          target="_blank"
-          rel="noreferrer"
+        <div
           className="min-w-[160px] sm:min-w-[200px] flex-shrink-0 group relative rounded-2xl p-2 hover:bg-[#181818]"
         >
           <div className="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] m-auto rounded-full overflow-hidden">
-            <img src="assets/A_riday.JPG" alt="" className="w-full h-full object-cover" />
+            <img src="https://c.saavncdn.com/artists/Arijit_Singh_004_20241118063717_500x500.jpg" alt="" className="w-full h-full object-cover" />
           </div>
           <div className="opacity-0 group-hover:opacity-100 group-hover:translate-y-[-10px] transition-transform duration-300 ease-out w-[48px] h-[48px] bg-green-500 rounded-full absolute right-4 top-[95px] sm:top-[115px]">
             <img src="assets/play.svg" alt="" className="w-[25px] m-[12px]" />
           </div>
-          <div className="font-bold pt-2 truncate text-sm sm:text-base pl-2">Riday</div>
+          <div className="font-bold pt-2 truncate text-sm sm:text-base pl-2">Arijit Singh</div>
           <div className="opacity-70 text-sm pl-2">Artist</div>
-        </a>
+        </div>
       </div>
 
       {/* Popular Albums */}
